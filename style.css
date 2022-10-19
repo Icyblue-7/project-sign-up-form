@@ -1,6 +1,14 @@
-body {
-    background-image: url(./photo/halie-west-8O5RyCqgdBk-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: contain 100%;
-    background-position: center;
+
+
+img {
+    width: 50px;
+}
+
+
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }

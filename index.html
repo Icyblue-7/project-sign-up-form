@@ -8,17 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la </p>
-
-        <p>You know you want to.. </p>
-    </header>
-
-    <form action="example.com/path" method="post">
-        <fieldset disabled="disabled"></fieldset>
-        <button type="submit">Create Account</button>
-
-        <p>Already have an account? <a href="_blank">Log in</a></p>
-    </form>
-</body>
+    <div class="background">
+        <img src="./photo/odin-lined.png" alt="odin-logo">
+        <p class="logo-text">ODIN</p>
+    </div>
+    <div class="form">
+        <header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut la </p>
+            
+            <p>You know you want to.. </p>
+        </header>
+        <form action="example.com/path" method="post">
+            <fieldset>
+                <legend>Let's do This</legend>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+                
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" name="phone-number" id="phone-number">
+                
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password">
+                
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+                
+                
+            </fieldset>
+            
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="_blank">Log in</a></p>
+        </form>
+    </div>    
+    </body>
 </html>
