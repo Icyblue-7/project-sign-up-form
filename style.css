@@ -16,8 +16,8 @@ body {
     background: 
         url(./photo/halie-west-8O5RyCqgdBk-unsplash.jpg)
         no-repeat
-        center center / cover;
-    height: 100vh, 100%;
+        center center/ cover;
+    height: 100vh 100%;
     width: 50%;
 }
 /* background image */ 
@@ -25,11 +25,12 @@ body {
     position: absolute;
     bottom: 0;
     padding: 10px;
-    color: rgb(155, 201, 253);
+    color: white;
+    font-size: 16px;
 }
 
 .background > p > a {
-    color: rgb(155, 201, 253);
+    color: white;
 }
 /* background image credit text */ 
 .logo {
@@ -58,15 +59,13 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    contain: ;
 }
 
 .form > .header {
     text-align: left;
     width: 400px;
     margin: 30px;
-}
-
-form legend {
 }
 
 fieldset {
@@ -84,11 +83,14 @@ fieldset input {
 
 form > button {
     border: none;
-    font-size: 26px;
+    font-size: 20px;
     background-color: orange;
     margin: 30px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
 }
 
 form > p {
-    margin: 30px;
+    margin: 0px 30px 60px 30px;
 }
