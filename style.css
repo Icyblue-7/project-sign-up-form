@@ -52,7 +52,7 @@ body {
 
 .form {
     font-family: 'Signika Negative', sans-serif;
-    background-color: rgb(197, 197, 247);
+    background-color: rgb(236, 236, 236);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,8 +67,12 @@ body {
 
 form {
 }
+
 fieldset {
     display: flex;
     flex-direction: column;
-    width: 400px;
+}
+
+fieldset input {
+    width: 250px;
 }
