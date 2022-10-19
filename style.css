@@ -11,24 +11,27 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .background {
     background: 
         url(./photo/halie-west-8O5RyCqgdBk-unsplash.jpg)
         no-repeat
         center center / cover;
     height: 100vh;
-    width: 35%;
+    width: 50%;
 }
+/* background image */ 
 .background > p {
-    position: absolute; 
+    position: absolute;
     bottom: 0;
-    left: 20px;
+    padding: 10px;
     color: rgb(155, 201, 253);
 }
 
 .background > p > a {
     color: rgb(155, 201, 253);
 }
+/* background image credit text */ 
 .logo {
     display: flex;
     justify-content: center;
@@ -45,19 +48,24 @@ body {
 .logo img {
     width: 60px;
 }
+/* odin logo and odin text */ 
 
 .form {
     font-family: 'Signika Negative', sans-serif;
     background-color: rgb(197, 197, 247);
-    max-width: 60%;
-}
-.form > .header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
-    padding: 20px;
+    padding: 30px;
 }
+
+.form > .header {
+    text-align: left;
+    width: 400px;
+}
+
 form {
-    padding: 20px;
 }
 fieldset {
     display: flex;
