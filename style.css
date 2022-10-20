@@ -59,7 +59,6 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    contain: ;
 }
 
 .form > .header {
@@ -76,9 +75,23 @@ fieldset {
     border: 0;
     padding: 30px;
     }
+fieldset > label {
+    padding: 5px 0;
+}
 
-fieldset input {
+fieldset > input {
     width: 250px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+fieldset > input:valid {
+    border-color: green;
+}
+
+fieldset > input:invalid {
+    border-color: red;
 }
 
 form > button {
