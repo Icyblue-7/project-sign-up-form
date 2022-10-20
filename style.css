@@ -24,7 +24,7 @@ body {
 .background > p {
     position: absolute;
     bottom: 0;
-    padding: 10px;
+    padding: 0 10px;
     color: white;
     font-size: 16px;
 }
@@ -54,11 +54,12 @@ body {
 .form {
     font-family: 'Signika Negative', sans-serif;
     font-size: 22px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    padding: 75px 0;
 }
 
 .form > .header {
@@ -66,7 +67,7 @@ body {
     width: 400px;
     margin: 30px;
 }
-
+/* form header text */
 fieldset {
     display: flex;
     flex-direction: column;
@@ -74,26 +75,37 @@ fieldset {
     box-shadow: 0px 5px 10px gray;
     border: 0;
     padding: 30px;
-    }
-fieldset > label {
+}
+
+fieldset > div {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* main form container */
+fieldset > div > .container {
+    display: flex;
+    flex-direction: column;
+}
+/* container for label and input */
+.container > label {
     padding: 5px 0;
 }
 
-fieldset > input {
+.container > input {
     width: 250px;
     border: 2px solid;
     border-radius: 5px;
     padding: 5px;
 }
 
-fieldset > input:valid {
+.container > input:valid {
     border-color: green;
 }
 
-fieldset > input:invalid {
+.container > input:invalid {
     border-color: red;
 }
-
+/* validation css rules */
 form > button {
     border: none;
     font-size: 20px;
@@ -103,7 +115,9 @@ form > button {
     width: 250px;
     border-radius: 5px;
 }
-
+/* create account button */
 form > p {
-    margin: 0px 30px 60px 30px;
+    margin: 0px 30px;
 }
+
+/* alternative log in button */
